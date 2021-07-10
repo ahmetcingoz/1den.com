@@ -16,7 +16,7 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">News</a></li>
+						<li><a href="#">Haber</a></li>
 						<li><a href="#">Opinion</a></li>					
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Culture</a></li>					
