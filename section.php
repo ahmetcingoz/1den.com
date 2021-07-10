@@ -38,7 +38,7 @@
 						<div id="headlines">
 							<div class="today">
 								<ul>
-									<li>Headlines</li>	
+									<li>Günler'Den;</li>	
 									<li>Cumartesi</li>
 									<li>10 Temmuz 2021</li>
 								</ul>
