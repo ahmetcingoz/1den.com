@@ -167,11 +167,13 @@
 							</div>
 							<div class="center">
 								<h1>As politicians and the rightwing media downplay the attack or shift the blame, fears of a replay grow</h1>
-								<div>
+								<div class="news-outer-wrapper">
 									<img src="assets/images/12.jpg">
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
+									<div class="news-wrapper">
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+									</div>
 								</div>
 							</div>
 							<div class="right">
@@ -189,9 +191,16 @@
 						<style>
 							#news-four {width: 1800px; height: 100%; background-color: #e4e5e8; display: block; float: left; margin-left: 30px;}
 							#news-four .left {width: 370px; height: 100%; float: left;}
-							#news-four .left h1 {width: 100%; float: left; font-size: 45px; color: #182a62; text-indent: 25px;}
+							#news-four .left h1 {width: 100%; float: left; font-size: 45px; color: #182a62;}
 							#news-four .left h1::before {content: ""; width: 100%; height: 10px; background-color:#c9746c; display: block;}
 							#news-four .center {width: 980px; height: 100%; margin-left: 30px; float: left;}
+							#news-four .center > h1 {width: 100%; font-size: 45px; color: 182a61; margin-top: 10px; margin-bottom: 10px;}
+							#news-four .center .news-outer-wrapper {width: 100%; position: relative;}
+							#news-four .center .news-outer-wrapper .news-wrapper {width: 98%; position:absolute; height:115px; bottom: 50px;}
+							
+							#news-four .center .news-outer-wrapper .news-wrapper a {width: 30%; float: left; height: 115px; background-color: #e4e5e8; margin-left: 3%; color: #182a61; font-size: 17px; box-sizing: border-box; border-top: 4px solid #c9746c; display: block; padding: 20px;}
+							#news-four .center .news-outer-wrapper .news-wrapper a:hover {background-color: #c9746c; border-top: 4px solid #FFF; color: #FFF;}
+
 							#news-four .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
 						</style>
 					
