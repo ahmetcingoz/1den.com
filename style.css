@@ -14,7 +14,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 >>>>>>> parent of 4f0e582 (renk2)
 	#logo {height: 100%;  width: 150px; position: relative; float: left;}
 	#logo #logo-background {height: 40px;  width: 150px; position:absolute; bottom: 0px; left: 0px; background-color: #c9746c;}
-	#header-top {width: calc(100% - 150px); background-color: black; z-index: 99; float: left}
+	#header-top {width: calc(100% - 150px); background-color: #56f729;}; z-index: 99; float: left}
 	#header-bottom {width: calc(100% - 150px); height: 40px; position: absolute; bottom: 0px; left: 150px; float: left; box-sizing: border-box; border-top: 1px solid #384777;}
 	#header-bottom ul { width: auto; height: 100%; float: left;}
 	#header-bottom ul li { width: 150px; height: 70%; float: left; border-right: 1px solid #384777; display: flex; align-items: center;}
