@@ -16,7 +16,7 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">Haber</a></li>
+						<li><a href="#">ANLIK</a></li>
 						<li><a href="#">Opinion</a></li>					
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Culture</a></li>					
@@ -39,11 +39,11 @@
 							<div class="today">
 								<ul>
 									<li>Headlines</li>	
-									<li>Wednesday</li>
-									<li>30 June 2021</li>
+									<li>Cumartesi</li>
+									<li>10 Temmuz 2021</li>
 								</ul>
 							</div>
-							<div class="weather">
+							<div class="Havaloji">
 								<ul>
 									<li>İstanbul</li>
 									<li></li>
