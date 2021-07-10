@@ -191,25 +191,104 @@
 								</div>
 							</div>
 						</div>
+						<div id="news-five">
+							<div class="top">
+								<div class="left">
+									<a href="#">
+										<div>
+											<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+											<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+										</div>
+										<img src="assets/images/15.jpg">
+									</a>
+								</div>
+								<div class="right">
+									<a href="#">
+										<img src="assets/images/16.jpg">
+										<h1>Not that I don’t want my hot firebreak summer. I’m afraid I’m the personality type that hears</h1>
+									</a>
+								</div>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="assets/images/17.jpg">
+												<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/18.jpg">
+												<h1>Sixteen months ago we probably would have rolled our eyes at being told to take “personal</h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/19.jpg">
+												<h1>Not that I don’t want my hot firebreak summer. I’m afraid I’m the personality type that hears </h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/20.jpg">
+												<h1>Wherever you stand on my summer firebreak dreams – you may well be absolutely tutting</h1>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="right">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="assets/images/21.jpg">
+												<h1>Wherever you stand on my summer firebreak dreams may well be absolutely tutting</h1>
+												<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/22.jpg">
+												<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+												<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="news-six">
+							<div class="left">
+								<h1>Coronavirus</h1>
+							</div>
+							<div class="center">
+								<h1>As politicians and the rightwing media downplay the attack or shift the blame, fears of a replay grow</h1>
+								<div class="news-outer-wrapper">
+									<img src="assets/images/12.jpg">
+									<div class="news-wrapper">
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<div class="top">
+									<a href="#">
+										<img src="assets/images/13.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>
+								</div>
+								<div class="bottom">
+									<a href="#">
+										<img src="assets/images/14.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>	
+								</div>
+							</div>
+						</div>
 					
-						<style>
-							#news-four {width: 1800px; height: 100%; background-color: #e4e5e8; display: block; float: left; margin-left: 30px;}
-							#news-four .left {width: 370px; height: 100%; float: left;}
-							#news-four .left h1 {width: 100%; float: left; font-size: 45px; color: #182a62;}
-							#news-four .left h1::before {content: ""; width: 100%; height: 10px; background-color:#c9746c; display: block;}
-							#news-four .center {width: 980px; height: 100%; margin-left: 30px; float: left;}
-							#news-four .center > h1 {width: 100%; font-size: 45px; color: 182a61; margin-top: 10px; margin-bottom: 10px;}
-							#news-four .center .news-outer-wrapper {width: 100%; position: relative;}
-							#news-four .center .news-outer-wrapper .news-wrapper {width: 98%; position:absolute; height:115px; bottom: 50px;}
-							
-							#news-four .center .news-outer-wrapper .news-wrapper a {width: 30%; float: left; height: 115px; background-color: #e4e5e8; margin-left: 3%; color: #182a61; font-size: 17px; box-sizing: border-box; border-top: 4px solid #c9746c; display: block; padding: 20px;}
-							#news-four .center .news-outer-wrapper .news-wrapper a:hover {background-color: #c9746c; border-top: 4px solid #FFF; color: #FFF;}
-
-							#news-four .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
-							#news-four .right div {width: 100%; height: 45%; float: left;}
-							#news-four .right div:first-child {margin-top: 20px;}
-							#news-four .right div h1 {height: 30%; background-color: #c8746c; color: FFF; font-size: 25px; padding: 20px;}
-						</style>
 					
 					</section>
 				</div>
