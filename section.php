@@ -178,12 +178,16 @@
 							</div>
 							<div class="right">
 								<div class="top">
-									<img src="assets/images/13.jpg">
-									<h1>As politicians and the rightwing media downplay the attack</h1>
+									<a href="#">
+										<img src="assets/images/13.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>
 								</div>
 								<div class="bottom">
-									<img src="assets/images/14.jpg">
-									<h1>As politicians and the rightwing media downplay the attack</h1>
+									<a href="#">
+										<img src="assets/images/14.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>	
 								</div>
 							</div>
 						</div>
@@ -202,6 +206,9 @@
 							#news-four .center .news-outer-wrapper .news-wrapper a:hover {background-color: #c9746c; border-top: 4px solid #FFF; color: #FFF;}
 
 							#news-four .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
+							#news-four .right div {width: 100%; height: 45%; float: left;}
+							#news-four .right div:first-child {margin-top: 20px;}
+							#news-four .right div h1 {height: 30%; background-color: #c8746c; color: FFF; font-size: 25px; padding: 20px;}
 						</style>
 					
 					</section>
