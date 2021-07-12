@@ -16,13 +16,19 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">Anlık</a></li>
+						<li><a href="#">1denbire</a></li>
+<<<<<<< Updated upstream
 						<li><a href="#">Panoptikon</a></li>					
-						<li><a href="#">Sport</a></li>
-						<li><a href="#">Culture</a></li>
+						<li><a href="#">Sinoptik</a></li>
+						<li><a href="#">Omniptikon</a></li>
+						<li><a href="#">More</a></li> 					
+=======
+						<li><a href="#">Panoptik</a></li>					
+						<li><a href="#">Sinoptik</a></li>
+						<li><a href="#">Omniptikon</a></li>					
 						<li><a href="#">Lifestyle</a></li>
-						<li><a href="#">More</a></li> 
 						<li><a href="#">More</a></li>					
+>>>>>>> Stashed changes
 					</ul>
 				</div>
 			</div>
