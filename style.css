@@ -1,6 +1,5 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}li{list-style:none}
 
-	
 	html, body {position: relative; width: auto; height: 100%; margin: 0px; padding: 0px; background-color: #FFF; font-family: 'Playfair Display', serif;}
 	
 	header {width: 100%; height: 125px; position: fixed; display: block; left: 0px; top: 0px;}
@@ -29,10 +28,20 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#container {width: 100%; height: calc(100% - 145px); float: left; margin-top: 145px;}
 
 	#headlines {width: 200px; height:100%; float: left; display: block; margin-left: 110px;}
-	#headlines .today {width: 100%; float: left; margin-bottom: 100px;}
+	#headlines .today {width: 100%; float: left; margin-bottom: 20px; margin-top: 20px;}
 	#headlines .today ul li:first-child {font-size: 22px; font-weight: 600; margin-bottom: 10px;}
 	#headlines .today ul li:nth-child(2) {font-size: 15px; font-weight: 600;}
-	#headlines .today ul li:last-child {font-size: 15px; font-weight: 600; color: #a60312;}
+
+	.dilara {
+		background-color: #f7f7f7;
+		padding: 20px;
+		margin-top: 10px;
+		margin-bottom: 10;
+		font-size: 13px;
+		border-top: 1px dashed #000;
+	}
+
+	
 
 	#headlines .weather {width: 100%; float: left; margin-bottom: 100px;}
 	#headlines .weather ul li:first-child {padding-bottom: 10px;}
@@ -42,9 +51,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#headlines .on-this-day ul li:first-child {font-size: 23px; font-weight: 600; margin-bottom: 10px;}
 	#headlines .on-this-day ul li:nth-child(2) {font-size: 23px; font-weight: 600; color: #c9746c;}
 	#headlines .on-this-day ul li:last-child {border-bottom: 1px solid #ececec; border-top: 1px solid #ececec; margin-top: 5px; padding-top: 5px; padding-bottom: 5px;}
+	#headlines .on-this-day .dilara {border-top: 1px solid #f00;}
 
 	#news-one {width:1050px; height: 100%; background-color: #6c7ec9; float: left; display: block; margin-left: 30px; padding: 30px;}
-	#news-one h1 {width: 100%; font-size: 45px; color: #FFF;}
+	#news-one h1 {width: 100%; font-size: 45px; color: #FFF; font-size: 30px;}
+	#news-one h1 b {color: red; margin-right: 10px;}
+
 	#news-one h1::before {content: ''; width: 50%; height: 12px; background-color: #c9746c; display: block; margin-bottom: 10px;}
 	#news-one img  {width: 100%; margin-top: 25px; margin-bottom: 25px;}
 	#news-one p {width: 100%; font-size: 25px; color: #FFF;}
@@ -87,7 +99,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#news-three ul li {width: calc(50% - 10px); margin-left: 20px; float: left; margin-bottom: 20px;}
 	#news-three ul li:nth-child(2n-1) {margin-left: 0px; float: left;}
 	#news-three ul li img {width: 100%; float: left;}
-	#news-three ul li p {width: calc(100% - 40px); float: left; height: 90px; background-color: #f6f6f6; padding: 20px; color: #000;}
+	#news-three ul li p {width: calc(100% - 40px); float: left; height: 90px; background-color: #c1ccff; padding: 20px; color: #000;}
 	#news-three ul li p b { color: #ad2525; }
 	#news-three ul li p b::after {content: "/"; margin-left: 5px; margin-right: 5px;}
 

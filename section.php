@@ -19,15 +19,20 @@
 						<li><a href="#">ANLIK</a></li>
 						<li><a href="#">Opinion</a></li>					
 						<li><a href="#">Sport</a></li>
-						<li><a href="#">Culture</a></li>					
+						<li><a href="#">Culture</a></li>
 						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">More</a></li> 
 						<li><a href="#">More</a></li>					
 					</ul>
 				</div>
 			</div>
 			<div id="header-outside-bottom">
 				<ul>
-					<li>Coronavirus World UK Environment Science</li>
+					<li>Coronavirus</li>
+					<li>World</li>
+					<li>UK</li>
+					<li>Environment</li>
+					<li>Science</li>
 				</ul>
 			</div>
 		</header>
@@ -38,12 +43,13 @@
 						<div id="headlines">
 							<div class="today">
 								<ul>
-									<li>Headlines</li>	
+									<li>Havaloji</li>	
 									<li>Cumartesi</li>
 									<li>10 Temmuz 2021</li>
+									<li class="dilara">Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</li>
 								</ul>
 							</div>
-							<div class="Havaloji">
+							<div class="weather">
 								<ul>
 									<li>İstanbul</li>
 									<li></li>
@@ -54,14 +60,14 @@
 								<ul>
 									<li>On This Day</li>
 									<li>1415</li>
-									<li><p>Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</p></li>
+									<li><p class="dilara">Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</p></li>
 								</ul>
 							</div>
 						</div>	
 						<div id="news-one">
 							<span></span>
 							<a href="#">
-								<h1>• Live / Covid: UK records 26,068 cases, most since January; pandemic end is 'distant future' in Latin America</h1>
+								<h1><b>• Live</b> / Covid: UK records 26,068 cases, most since January; pandemic end is 'distant future' in Latin America</h1>
 								<img src="assets/images/01.jpg"></li>
 								<p>State of Quennsland says Pfizer vaccine suplly will run out in days</p>
 							</a>
