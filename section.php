@@ -16,19 +16,58 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">1denbire</a></li>
-						<li><a href="#">Sinoptik</a></li>					
-						<li><a href="#">Culture</a></li>
-						<li><a href="#">Sport</a></li>
-						<li><a href="#">More</a></li> 					
+						<li>
+							<a href="#">1denbire</a>
+							<ul class="hide">
+								<div class="header-outside-bottom">
+									<ul>
+										<li><a href="#">Güncel</a></li>
+										<li><a href="#">Fazla</a></li>
+									</ul>
+								</div>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">Olan Biten</a>
+							<ul class="hide">
+								<div class="header-outside-bottom">
+									<ul>
+										<li><a href="#">Panoptikon</a></li>
+										<li><a href="#">Sinoptik</a></li>
+										<li><a href="#">Omniptikon</a></li>
+									</ul>
+								</div>
+							</ul>
+						</li>					
+						<li>
+							<a href="#">Culture</a>
+							<ul class="hide">
+								<div class="header-outside-bottom">
+									<ul>
+										<li><a href="#">Book</a></li>
+										<li><a href="#">Magazine</a></li>
+									</ul>
+								</div>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">Sport</a>
+							<ul class="hide">
+								<div class="header-outside-bottom">
+									<ul>
+										<li><a href="#">Baseball</a></li>
+										<li><a href="#">Basketball</a></li>
+										<li><a href="#">Soccer</a></li>
+										<li><a href="#">Tennis</a></li>										
+									</ul>
+								</div>
+							</ul>							
+						</li>
+						<li>
+							<a href="#">More</a>
+						</li> 					
 					</ul>
 				</div>
-			</div>
-			<div id="header-outside-bottom">
-				<ul>
-					<li>Panoptikon</li>
-					<li>Omniptikon</li>
-				</ul>
 			</div>
 		</header>
 		<div class="outer-wrapper">
