@@ -16,8 +16,8 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">ANLIK</a></li>
-						<li><a href="#">Opinion</a></li>					
+						<li><a href="#">Anlık</a></li>
+						<li><a href="#">Panoptikon</a></li>					
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Culture</a></li>
 						<li><a href="#">Lifestyle</a></li>
