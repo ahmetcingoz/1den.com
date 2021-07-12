@@ -20,9 +20,6 @@
 						<li><a href="#">Panoptikon</a></li>					
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Culture</a></li>
-						<li><a href="#">Lifestyle</a></li>
-						<li><a href="#">More</a></li> 
-						<li><a href="#">More</a></li>					
 					</ul>
 				</div>
 			</div>
