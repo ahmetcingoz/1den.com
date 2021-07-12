@@ -17,20 +17,17 @@
 				<div id="header-bottom">
 					<ul>
 						<li><a href="#">1denbire</a></li>
-						<li><a href="#">Panoptikon</a></li>					
-						<li><a href="#">Sinoptik</a></li>
-						<li><a href="#">Omniptikon</a></li>
+						<li><a href="#">Sinoptik</a></li>					
+						<li><a href="#">Culture</a></li>
+						<li><a href="#">Sport</a></li>
 						<li><a href="#">More</a></li> 					
 					</ul>
 				</div>
 			</div>
 			<div id="header-outside-bottom">
 				<ul>
-					<li>Coronavirus</li>
-					<li>World</li>
-					<li>UK</li>
-					<li>Environment</li>
-					<li>Science</li>
+					<li>Panoptikon</li>
+					<li>Omniptikon</li>
 				</ul>
 			</div>
 		</header>
