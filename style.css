@@ -1,37 +1,55 @@
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}li{list-style:none}
 
-	
-	$finalHeight: 5000px;
-	
 	html, body {position: relative; width: auto; height: 100%; margin: 0px; padding: 0px; background-color: #FFF; font-family: 'Playfair Display', serif;}
 	
 	header {width: 100%; height: 125px; position: fixed; display: block; left: 0px; top: 0px;}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	#header {width: 100%; height: 90px; float: left;  position: relative; background-color: #868cff;}
 =======
 	#header {width: 100%; height: 90px; float: left;  position: relative; background-color: #a73f2000
 >>>>>>> parent of 4f0e582 (renk2)
+=======
+	#header {width: 100%; height: 90px; float: left;  position: relative; background-color: #6c7ec9;}
+
+>>>>>>> 23beb7df527e267693bc23ed00b38173b0e54f6c
 	#logo {height: 100%;  width: 150px; position: relative; float: left;}
-	#logo #logo-background {height: 40px;  width: 150px; position:absolute; bottom: 0px; left: 0px; background-color: #c9746c;}
-	#header-top {width: calc(100% - 150px); background-color: #56f729;}; z-index: 99; float: left}
-	#header-bottom {width: calc(100% - 150px); height: 40px; position: absolute; bottom: 0px; left: 150px; float: left; box-sizing: border-box; border-top: 1px solid #384777;}
+	#logo #logo-background {height: 40px;  width: 150px; position:absolute; bottom: 0px; left: 0px; background-color: rgba(255, 255, 255, 0.3)}
+	#header-top {width: calc(100% - 150px); background-color: #56f729;  z-index: 99; float: left}
+	#header-bottom {width: calc(100% - 150px); height: 40px; position: absolute; bottom: 0px; left: 150px; float: left; box-sizing: border-box; border-top: 1px solid rgba(255, 255, 255, 0.3);}
 	#header-bottom ul { width: auto; height: 100%; float: left;}
-	#header-bottom ul li { width: 150px; height: 70%; float: left; border-right: 1px solid #384777; display: flex; align-items: center;}
-	#header-bottom ul li:first-child {border-top: 3px solid #6ca5c9;}
+	#header-bottom ul li { width: 150px; height: 70%; float: left; border-right: 1px solid rgba(255, 255, 255, 0.3); display: flex; align-items: center;}
+	#header-bottom ul li:first-child {border-top: 3px solid rgba(255, 255, 255, 0.3);}
 	#header-bottom ul li a {color: #FFF; display: block; text-indent: 10px; font-size: 19px; font-weight: 600; width: 100%;}	
-	#header-bottom ul li:hover {border-top: 3px solid #6ca5c9;}
+	#header-bottom ul li:hover {border-top: 3px solid rgba(255, 255, 255, 0.3);}
 	#header-outside-bottom {width: 100%; height: 35px; float: left; border-bottom: 1px solid #c9746c;}
 	#header-outside-bottom ul {width: 100%; height: 100%; float: left;}
 	#header-outside-bottom ul li {width: auto; height: 100%; float: left; display: flex; align-items: center; margin-left: 110px;}	
 
+	.slide {height: 100vh;}
+	.wrapper {display: flex; flex-direction: row; width: 440vw; transform: rotate(90deg) translateY(-100vh); transform-origin: top left;}
+	.container {width: 440vw;}
+	.outer-wrapper {width: 91vh; height: 100vw; transform: rotate(-90deg) translateX(-100vh); transform-origin: top left; overflow-y: scroll; overflow-x: hidden; position: absolute; scrollbar-width: none; -ms-overflow-style: none;}
+	::-webkit-scrollbar {display:none;}
+
 	#container {width: 100%; height: calc(100% - 145px); float: left; margin-top: 145px;}
 
 	#headlines {width: 200px; height:100%; float: left; display: block; margin-left: 110px;}
-	#headlines .today {width: 100%; float: left; margin-bottom: 100px;}
+	#headlines .today {width: 100%; float: left; margin-bottom: 20px; margin-top: 20px;}
 	#headlines .today ul li:first-child {font-size: 22px; font-weight: 600; margin-bottom: 10px;}
 	#headlines .today ul li:nth-child(2) {font-size: 15px; font-weight: 600;}
-	#headlines .today ul li:last-child {font-size: 15px; font-weight: 600; color: #a60312;}
+
+	.dilara {
+		background-color: #f7f7f7;
+		padding: 20px;
+		margin-top: 10px;
+		margin-bottom: 10;
+		font-size: 13px;
+		border-top: 1px dashed #000;
+	}
+
+	
 
 	#headlines .weather {width: 100%; float: left; margin-bottom: 100px;}
 	#headlines .weather ul li:first-child {padding-bottom: 10px;}
@@ -41,9 +59,12 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#headlines .on-this-day ul li:first-child {font-size: 23px; font-weight: 600; margin-bottom: 10px;}
 	#headlines .on-this-day ul li:nth-child(2) {font-size: 23px; font-weight: 600; color: #c9746c;}
 	#headlines .on-this-day ul li:last-child {border-bottom: 1px solid #ececec; border-top: 1px solid #ececec; margin-top: 5px; padding-top: 5px; padding-bottom: 5px;}
+	#headlines .on-this-day .dilara {border-top: 1px solid #f00;}
 
-	#news-one {width:1050px; height: 100%; background-color: #182a61; float: left; display: block; margin-left: 30px; padding: 30px;}
-	#news-one h1 {width: 100%; font-size: 45px; color: #FFF;}
+	#news-one {width:1050px; height: 100%; background-color: #6c7ec9; float: left; display: block; margin-left: 30px; padding: 30px;}
+	#news-one h1 {width: 100%; font-size: 45px; color: #FFF; font-size: 30px;}
+	#news-one h1 b {color: red; margin-right: 10px;}
+
 	#news-one h1::before {content: ''; width: 50%; height: 12px; background-color: #c9746c; display: block; margin-bottom: 10px;}
 	#news-one img  {width: 100%; margin-top: 25px; margin-bottom: 25px;}
 	#news-one p {width: 100%; font-size: 25px; color: #FFF;}
@@ -81,41 +102,69 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	#news-two .right h1 {font-size: 26px; padding-bottom: 10px;}
 	#news-two .right p {font-size: 20px; padding-bottom: 15px;}
 
-
 	#news-three {width: 495px; height: 100%; float: left; margin-left: 30px;}
 	#news-three ul {width: 100%; float: left;}
 	#news-three ul li {width: calc(50% - 10px); margin-left: 20px; float: left; margin-bottom: 20px;}
 	#news-three ul li:nth-child(2n-1) {margin-left: 0px; float: left;}
 	#news-three ul li img {width: 100%; float: left;}
-	#news-three ul li p {width: calc(100% - 40px); float: left; height: 90px; background-color: #f6f6f6; padding: 20px; color: #000;}
+	#news-three ul li p {width: calc(100% - 40px); float: left; height: 90px; background-color: #c1ccff; padding: 20px; color: #000;}
 	#news-three ul li p b { color: #ad2525; }
 	#news-three ul li p b::after {content: "/"; margin-left: 5px; margin-right: 5px;}
 
-.slide {
-  width: 100vw;
-  height: 100vh;
-}
-.wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 800vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
-}
-.container {
-  width: 800vw;
-}
-.outer-wrapper {
-  width: 91vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display:none;
-}
+	#news-four {width: 1800px; height: 100%; background-color: #e4e5e8; display: block; float: left; margin-left: 30px;}
+	#news-four .left {width: 370px; height: 100%; float: left;}
+	#news-four .left h1 {width: 100%; float: left; font-size: 45px; color: #182a62;}
+	#news-four .left h1::before {content: ""; width: 100%; height: 10px; background-color:#c9746c; display: block;}
+	#news-four .center {width: 980px; height: 100%; margin-left: 30px; float: left;}
+	#news-four .center > h1 {width: 100%; font-size: 45px; color: #182a61; margin-top: 10px; margin-bottom: 10px;}
+	#news-four .center .news-outer-wrapper {width: 100%; position: relative;}
+	#news-four .center .news-outer-wrapper .news-wrapper {width: 98%; position:absolute; height:115px; bottom: 50px;}
+
+	#news-four .center .news-outer-wrapper .news-wrapper a {width: 30%; float: left; height: 115px; background-color: #e4e5e8; margin-left: 3%; color: #182a61; font-size: 17px; box-sizing: border-box; border-top: 4px solid #c9746c; display: block; padding: 20px;}
+	#news-four .center .news-outer-wrapper .news-wrapper a:hover {background-color: #c9746c; border-top: 4px solid #FFF; color: #FFF;}
+
+	#news-four .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
+	#news-four .right div {width: 100%; height: 45%; float: left;}
+	#news-four .right div:first-child {margin-top: 20px;}
+	#news-four .right div h1 {height: 30%; background-color: #c8746c; color: FFF; font-size: 25px; padding: 20px;}
+
+	#news-five {width: 1175px; height: 100%; display: block; float: left; margin-left: 30px;}
+	#news-five .top {width: 100%; height: 350px; display: block; float: left;}
+	#news-five .top .left {width: 850px; height: 100%; float: left; background-color: #fcf9f5; border-top: 3px solid #c9746c;}
+	#news-five .top .left div {width: 235px; height: 100%; float: left; padding: 20px; color: #000;}
+	#news-five .top .left div h1 {font-size: 27px; line-height: 35px; margin-bottom: 10px; width: 100%;}
+	#news-five .top .left div p {font-size: 20px;}
+	#news-five .top .right {width: 300px; height: 100%; float: left; background-color: #fcf9f5; margin-left: 20px; border-top: 3px solid #c9746c;}
+	#news-five .top .right h1 {font-size: 20px; padding: 20px; color: #000;}
+	#news-five .bottom {width: 100%; height: 500px; display: block; float: left; margin-top: 20px;}
+	#news-five .bottom .left {width: 525px; float: left;}
+	#news-five .bottom .left ul {width: 100%; float: left;}
+	#news-five .bottom .left ul li {width: 100%; float: left; margin-bottom: 10px; background-color: #fcf9f5; border-top: 3px solid #c9746c}
+	#news-five .bottom .left ul li img {float: left; width: 33%;}
+	#news-five .bottom .left ul li h1 {padding: 10px; color: #000; font-size: 17px; width: 60%; float: left;}
+	#news-five .bottom .right {width: 630px; float: left; margin-left: 20px;}
+	#news-five .bottom .right ul {width: 100%; float: left;}
+	#news-five .bottom .right ul li {width: calc(50% - 13px); height: 100%; float: left; margin-bottom: 10px; background-color: #fcf9f5; border-top: 3px solid #c9746c;}
+	#news-five .bottom .right ul li:last-child {margin-left: 20px;}
+	#news-five .bottom .right ul li img {float: left; width: 100%;}
+	#news-five .bottom .right ul li h1 {float: left; padding: 20px; font-size: 20px; color: #000;}
+	#news-five .bottom .right ul li p {float: left; padding: 20px; font-size: 15px; color: #000;}
+
+	#news-six {width: 1800px; height: 100%; background-color: #6c7ec9; display: block; float: left; margin-left: 30px;}
+	#news-six .left {width: 370px; height: 100%; float: left;}
+	#news-six .left h1 {width: 100%; float: left; font-size: 45px; color: #FFF;}
+	#news-six .left h1::before {content: ""; width: 100%; height: 10px; background-color:#d6deff; display: block;}
+	#news-six .center {width: 980px; height: 100%; margin-left: 30px; float: left;}
+	#news-six .center > h1 {width: 100%; font-size: 45px; color: #FFF; margin-top: 10px; margin-bottom: 10px;}
+	#news-six .center .news-outer-wrapper {width: 100%; position: relative;}
+	#news-six .center .news-outer-wrapper .news-wrapper {width: 98%; position:absolute; height:115px; bottom: 50px;}
+
+	#news-six .center .news-outer-wrapper .news-wrapper a {width: 30%; float: left; height: 115px; background-color: #e4e5e8; margin-left: 3%; color: #6c7ec9; font-size: 17px; box-sizing: border-box; border-top: 4px solid #6c7ec9; display: block; padding: 20px;}
+	#news-six .center .news-outer-wrapper .news-wrapper a:hover {background-color: #6c7ec9; border-top: 4px solid #FFF; color: #FFF;}
+
+	#news-six .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
+	#news-six .right div {width: 100%; height: 45%; float: left;}
+	#news-six .right div:first-child {margin-top: 20px;}
+	#news-six .right div h1 {height: 30%; background-color: #FFF; color: #6c7ec9; font-size: 25px; padding: 20px;}
+
+

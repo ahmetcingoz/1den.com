@@ -16,18 +16,21 @@
 				<div id="header-top"></div>
 				<div id="header-bottom">
 					<ul>
-						<li><a href="#">ANLIK</a></li>
-						<li><a href="#">Opinion</a></li>					
-						<li><a href="#">Sport</a></li>
-						<li><a href="#">Culture</a></li>					
-						<li><a href="#">Lifestyle</a></li>
-						<li><a href="#">More</a></li>					
+						<li><a href="#">1denbire</a></li>
+						<li><a href="#">Panoptikon</a></li>					
+						<li><a href="#">Sinoptik</a></li>
+						<li><a href="#">Omniptikon</a></li>
+						<li><a href="#">More</a></li> 					
 					</ul>
 				</div>
 			</div>
 			<div id="header-outside-bottom">
 				<ul>
-					<li>Coronavirus World UK Environment Science</li>
+					<li>Coronavirus</li>
+					<li>World</li>
+					<li>UK</li>
+					<li>Environment</li>
+					<li>Science</li>
 				</ul>
 			</div>
 		</header>
@@ -38,12 +41,13 @@
 						<div id="headlines">
 							<div class="today">
 								<ul>
-									<li>Headlines</li>	
+									<li>Havaloji</li>	
 									<li>Cumartesi</li>
 									<li>10 Temmuz 2021</li>
+									<li class="dilara">Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</li>
 								</ul>
 							</div>
-							<div class="Havaloji">
+							<div class="weather">
 								<ul>
 									<li>İstanbul</li>
 									<li></li>
@@ -54,14 +58,14 @@
 								<ul>
 									<li>On This Day</li>
 									<li>1415</li>
-									<li><p>Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</p></li>
+									<li><p class="dilara">Jan Hus, a Czech who spoke out against Church corruption, is burned at the stake as a heretic.</p></li>
 								</ul>
 							</div>
 						</div>	
 						<div id="news-one">
 							<span></span>
 							<a href="#">
-								<h1>• Live / Covid: UK records 26,068 cases, most since January; pandemic end is 'distant future' in Latin America</h1>
+								<h1><b>• Live</b> / Covid: UK records 26,068 cases, most since January; pandemic end is 'distant future' in Latin America</h1>
 								<img src="assets/images/01.jpg"></li>
 								<p>State of Quennsland says Pfizer vaccine suplly will run out in days</p>
 							</a>
@@ -167,33 +171,128 @@
 							</div>
 							<div class="center">
 								<h1>As politicians and the rightwing media downplay the attack or shift the blame, fears of a replay grow</h1>
-								<div>
+								<div class="news-outer-wrapper">
 									<img src="assets/images/12.jpg">
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
-									<div><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></div>
+									<div class="news-wrapper">
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+									</div>
 								</div>
 							</div>
 							<div class="right">
 								<div class="top">
-									<img src="assets/images/13.jpg">
-									<h1>As politicians and the rightwing media downplay the attack</h1>
+									<a href="#">
+										<img src="assets/images/13.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>
 								</div>
 								<div class="bottom">
-									<img src="assets/images/14.jpg">
-									<h1>As politicians and the rightwing media downplay the attack</h1>
+									<a href="#">
+										<img src="assets/images/14.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>	
+								</div>
+							</div>
+						</div>
+						<div id="news-five">
+							<div class="top">
+								<div class="left">
+									<a href="#">
+										<div>
+											<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+											<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+										</div>
+										<img src="assets/images/15.jpg">
+									</a>
+								</div>
+								<div class="right">
+									<a href="#">
+										<img src="assets/images/16.jpg">
+										<h1>Not that I don’t want my hot firebreak summer. I’m afraid I’m the personality type that hears</h1>
+									</a>
+								</div>
+							</div>
+							<div class="bottom">
+								<div class="left">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="assets/images/17.jpg">
+												<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/18.jpg">
+												<h1>Sixteen months ago we probably would have rolled our eyes at being told to take “personal</h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/19.jpg">
+												<h1>Not that I don’t want my hot firebreak summer. I’m afraid I’m the personality type that hears </h1>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/20.jpg">
+												<h1>Wherever you stand on my summer firebreak dreams – you may well be absolutely tutting</h1>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="right">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="assets/images/21.jpg">
+												<h1>Wherever you stand on my summer firebreak dreams may well be absolutely tutting</h1>
+												<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="assets/images/22.jpg">
+												<h1>With Johnson driving, it doesn’t feel like we’ve reached the end of the Covid line</h1>
+												<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic relief</p>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div id="news-six">
+							<div class="left">
+								<h1>Coronavirus</h1>
+							</div>
+							<div class="center">
+								<h1>As politicians and the rightwing media downplay the attack or shift the blame, fears of a replay grow</h1>
+								<div class="news-outer-wrapper">
+									<img src="assets/images/12.jpg">
+									<div class="news-wrapper">
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+										<div><a href="#"><h1>Republicans’ effort to deny the Capitol attack is working – and it’s dangerous</h1></a></div>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<div class="top">
+									<a href="#">
+										<img src="assets/images/13.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>
+								</div>
+								<div class="bottom">
+									<a href="#">
+										<img src="assets/images/14.jpg">
+										<h1>As politicians and the rightwing media downplay the attack</h1>
+									</a>	
 								</div>
 							</div>
 						</div>
 					
-						<style>
-							#news-four {width: 1800px; height: 100%; background-color: #e4e5e8; display: block; float: left; margin-left: 30px;}
-							#news-four .left {width: 370px; height: 100%; float: left;}
-							#news-four .left h1 {width: 100%; float: left; font-size: 45px; color: #182a62; text-indent: 25px;}
-							#news-four .left h1::before {content: ""; width: 100%; height: 10px; background-color:#c9746c; display: block;}
-							#news-four .center {width: 980px; height: 100%; margin-left: 30px; float: left;}
-							#news-four .right {width: 360px; height: 100%; margin-left: 30px; float: left;}
-						</style>
 					
 					</section>
 				</div>
