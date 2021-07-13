@@ -225,7 +225,7 @@
 								</div>
 								<div class="bottom">
 									<a href="#">
-										<img src="assets/images/14.jpg">
+										<img src="assets/images/13.jpg">
 										<h1>As politicians and the rightwing media downplay the attack</h1>
 									</a>	
 								</div>
