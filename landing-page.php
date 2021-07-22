@@ -6,6 +6,12 @@
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	
 		<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap" rel="stylesheet">
 		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+		
+		
+		
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 	</head>
 	<body>
@@ -18,7 +24,7 @@
 				<div id="header-bottom">
 					<ul>
 						<li>
-							<a href="#">1denbire</a>
+							<a href="#">Sıcak</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
@@ -29,19 +35,16 @@
 							</ul>							
 						</li>
 						<li>
-							<a href="#">Olan Biten</a>
+							<a href="#">Siyasi</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
-										<li><a href="#">Panoptikon</a></li>
-										<li><a href="#">Sinoptik</a></li>
-										<li><a href="#">Omniptikon</a></li>
 									</ul>
 								</div>
 							</ul>
 						</li>					
 						<li>
-							<a href="#">Culture</a>
+							<a href="#">Sosyal</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
@@ -52,7 +55,7 @@
 							</ul>							
 						</li>
 						<li>
-							<a href="#">Sport</a>
+							<a href="#">Küresel</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
@@ -65,8 +68,10 @@
 							</ul>							
 						</li>
 						<li>
-							<a href="#">More</a>
-						</li> 					
+							<a href="#">Gündem dışı</a>
+						</li> 		
+					    	<a href="#">Paparazzi</a>
+							    <div class="header-outside-bottom">
 					</ul>
 				</div>
 			</div>
