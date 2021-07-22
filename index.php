@@ -22,9 +22,13 @@
 				
 				if (!isset($_SESSION['admin'])) {
 
-					if ($header <> 'adf' || $header <> 'under-construction') {
+					if ($header <> '/adf' || $header <> '/under-construction') {
 
-						header('Location: /under-construction');		
+						echo 'deneme';
+						
+						echo $header;
+						
+						//header('Location: /under-construction');		
 
 					}
 					
