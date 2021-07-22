@@ -15,14 +15,14 @@
 		session_start();
 		
 		ob_start();
-
+		
 			include_once 'section.php';
 				
 			if ($under_construction == 'true') {
 				
 				if (!isset($_SESSION['admin'])) {
 
-					if ($header <> '/adf' || $header <> '/under-constrution') {
+					if ($header <> '/adf' || $header <> '/under-construction') {
 
 						header('Location: /under-construction');		
 
