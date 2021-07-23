@@ -4,11 +4,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	
-		<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400&display=swap" rel="stylesheet">
 		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400&display=swap" rel="stylesheet">
+
 		
 		
 		
@@ -24,54 +25,53 @@
 				<div id="header-bottom">
 					<ul>
 						<li>
-							<a href="#">Sıcak</a>
-							<ul class="hide">
-								<div class="header-outside-bottom">
-									<ul>
-										<li><a href="#">Güncel</a></li>
-										<li><a href="#">Fazla</a></li>
-									</ul>
-								</div>
-							</ul>							
+							<a href="#">Sıcak</a> 
 						</li>
 						<li>
-							<a href="#">Siyasi</a>
-							<ul class="hide">
-								<div class="header-outside-bottom">
-									<ul>
-									</ul>
-								</div>
-							</ul>
+							<a href="#">Siyasal</a>
 						</li>					
 						<li>
 							<a href="#">Sosyal</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
-										<li><a href="#">Book</a></li>
-										<li><a href="#">Magazine</a></li>
+										<li><a href="#">Ekonomi</a></li>
+										<li><a href="#">Sağlık</a></li>
+										<li><a href="#">Eğitim</a></li>
+										<li><a href="#">Bilim</a></li>
+										<li><a href="#">Medya</a></li>
 									</ul>
 								</div>
 							</ul>							
 						</li>
 						<li>
 							<a href="#">Küresel</a>
+						</li>
+						<li>
+							<a href="#">Kültürel</a>
 							<ul class="hide">
 								<div class="header-outside-bottom">
 									<ul>
-										<li><a href="#">Baseball</a></li>
-										<li><a href="#">Basketball</a></li>
-										<li><a href="#">Soccer</a></li>
-										<li><a href="#">Tennis</a></li>										
+										<li><a href="#">Sinema</a></li>
+										<li><a href="#">Tiyatro</a></li>
+										<li><a href="#">Müzik</a></li>
+										<li><a href="#">Kitap</a></li>										
 									</ul>
 								</div>
 							</ul>							
 						</li>
 						<li>
-							<a href="#">Gündem dışı</a>
-						</li> 		
-					    	<a href="#">Paparazzi</a>
-							    <div class="header-outside-bottom">
+							<a href="#">Sansasyonel</a> 
+						</li> 								
+						<li>
+							<a href="#">Dahası</a> 
+							<ul class="hide">
+								<div class="header-outside-bottom">
+									<ul>
+										<li><a href="#">Teknoloji</a></li>
+										<li><a href="#">Oyun</a></li>
+										</ul>
+								</div>					
 					</ul>
 				</div>
 			</div>
@@ -107,17 +107,17 @@
 						<div id="news-one">
 							<span></span>
 							<a href="#">
-								<h1><b>• Live</b> / Covid: UK records 26,068 cases, most since January; pandemic end is 'distant future' in Latin America</h1>
+								<h1><b>• Canlı</b> / Dünya, Türkiye’deki Covid-19 artışını konuşuyor</h1>
 								<img src="assets/images/01.jpg"></li>
-								<p>State of Quennsland says Pfizer vaccine suplly will run out in days</p>
+								<p>Dünya çapında dört milyondan fazla insanın ölümüne sebep olan corona virüsü salgını Türkiye'de tekrar hız kazanmaya başladı. Dün açıklanan verilerle birlikte vaka sayısı artarken uluslararası haber ajansı Reuters bu gelişmeye büyük yer ayırdı.</p>
 							</a>
 						</div>	
 						<div id="news-two">
 							<div class="left">
 								<div class="top">
 									<span>TOP MORE STORIES</span>
-									<h1>35 million tax returns not yet processed, watchdog says</h1>
-									<p>The agency's backlog grew markedly amid a crush of challenges related to the pandemic and economic reliefefforts, the report found.</p>
+									<h1>Tatilciler erken dönüşe geçti, 2 kilometre kuyruk oluştu</h1>
+									<p>Çanakkale feribot iskelesinde, tatilciler erken dönüşe geçince, çift sıra halinde iki kilometre uzunluğunda araç kuyruğu oluştu. Gestaş firmasına ait feribotlar, yoğunluk nedeniyle tarifesiz olarak sefer yapıyor.</p>
 								</div>
 								<div class="bottom">
 									<img src="assets/images/02.jpg">
